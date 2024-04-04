@@ -1,3 +1,4 @@
+from flask import Flask, request, render_template
 import google.generativeai as palm
 import replicate
 import os 
